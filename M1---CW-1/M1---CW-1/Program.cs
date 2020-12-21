@@ -6,6 +6,7 @@ namespace M1___CW_1
     {
         static void Main(string[] args)
         {
+            //Ahmad
             String characterName = "Ahmad";
             String superPower1 = "steel armor";
             String superPower2 = "night vision";
@@ -15,7 +16,19 @@ namespace M1___CW_1
             Console.WriteLine("My name is " +  characterName + " and my super powers are " + superPower1 + " and " + superPower2 + " . My age is " + age + " and my speed is " + speed);
             Console.WriteLine("");
             Console.WriteLine("My name is {0} and my super powers are {1} and {2} . My age is {3} and my speed is {4}", characterName, superPower1, superPower2, age, speed);
-            
+
+            //hero
+            String heroName = "Ahmad";
+            String heroSuperPower1 = "diamond sword";
+            String heroSuperPower2 = "Flying";
+            int heroAge = 18;
+            int heroHeight = 195;
+
+            int ageDifference = heroAge - age;
+
+            Console.WriteLine("");
+            Console.WriteLine(" " + ageDifference);
+
         }
     }
 }
